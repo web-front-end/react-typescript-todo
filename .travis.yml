@@ -1,30 +1,34 @@
---- 
-# after_success: 
+---
+# after_success:
 #   - "npm run deploy"
-branches: 
-  only: 
+branches:
+  only:
     - master
     - stable
-cache: 
-  directories: 
+cache:
+  directories:
     - node_modules
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  github_token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
   local_dir: build
   keep_history: true
- 
   on:
     branch: master
 dist: trusty
-env: 
-  global: 
+env:
+  global:
     - TIMEOUT=1000D
 language: node_js
-node_js: 
+node_js:
   - 8
-script: 
+
+before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash
+  - export PATH="$HOME/.yarn/bin:$PATH"
+
+script:
   - "yarn test --watchAll"
   - "yarn build"
 sudo: false
