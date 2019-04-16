@@ -1,0 +1,14 @@
+.idea
+node_modules
+.awcache
+yarn-error.log
+coverage
+.DS_Store
+dist
+selenium-debug.log
+#contracts
+stats.json
+*.iml
+.scannerwork
+.storybook-out
+.vscode
