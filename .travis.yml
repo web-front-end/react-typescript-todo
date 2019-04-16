@@ -1,6 +1,12 @@
 ---
 # after_success:
 #   - "npm run deploy"
+
+before_install:
+  - curl -o- -L https://yarnpkg.com/install.sh | bash
+  - export PATH="$HOME/.yarn/bin:$PATH"
+
+  
 branches:
   only:
     - master
@@ -23,10 +29,6 @@ env:
 language: node_js
 node_js:
   - 8
-
-before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash
-  - export PATH="$HOME/.yarn/bin:$PATH"
 
 script:
   - "yarn test --watchAll"
