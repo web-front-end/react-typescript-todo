@@ -2,6 +2,7 @@
   "name": "repo",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://web-front-end.github.io/react-typescript-todo",
   "dependencies": {
     "@types/history": "^4.7.2",
     "@types/jest": "^24.0.11",
