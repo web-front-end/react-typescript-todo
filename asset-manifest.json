@@ -1,15 +1,17 @@
 {
-  "main.css": "/react-typescript-todo/static/css/main.2b4d3836.chunk.css",
-  "main.js": "/react-typescript-todo/static/js/main.dab24631.chunk.js",
-  "main.js.map": "/react-typescript-todo/static/js/main.dab24631.chunk.js.map",
-  "runtime~main.js": "/react-typescript-todo/static/js/runtime~main.b87fe60e.js",
-  "runtime~main.js.map": "/react-typescript-todo/static/js/runtime~main.b87fe60e.js.map",
+  "main.css": "/react-typescript-todo/static/css/main.aa563a1b.chunk.css",
+  "main.js": "/react-typescript-todo/static/js/main.4ff25918.chunk.js",
+  "main.js.map": "/react-typescript-todo/static/js/main.4ff25918.chunk.js.map",
+  "runtime~main.js": "/react-typescript-todo/static/js/runtime~main.d58d5b91.js",
+  "runtime~main.js.map": "/react-typescript-todo/static/js/runtime~main.d58d5b91.js.map",
   "static/css/2.bf6e6662.chunk.css": "/react-typescript-todo/static/css/2.bf6e6662.chunk.css",
-  "static/js/2.54900857.chunk.js": "/react-typescript-todo/static/js/2.54900857.chunk.js",
-  "static/js/2.54900857.chunk.js.map": "/react-typescript-todo/static/js/2.54900857.chunk.js.map",
+  "static/js/2.17d16902.chunk.js": "/react-typescript-todo/static/js/2.17d16902.chunk.js",
+  "static/js/2.17d16902.chunk.js.map": "/react-typescript-todo/static/js/2.17d16902.chunk.js.map",
+  "static/js/3.56497f8b.chunk.js": "/react-typescript-todo/static/js/3.56497f8b.chunk.js",
+  "static/js/3.56497f8b.chunk.js.map": "/react-typescript-todo/static/js/3.56497f8b.chunk.js.map",
   "index.html": "/react-typescript-todo/index.html",
-  "precache-manifest.218655a36d7472a518ab3f830b20d823.js": "/react-typescript-todo/precache-manifest.218655a36d7472a518ab3f830b20d823.js",
+  "precache-manifest.fbcb8feee05e24dac2d7f66bb9178f84.js": "/react-typescript-todo/precache-manifest.fbcb8feee05e24dac2d7f66bb9178f84.js",
   "service-worker.js": "/react-typescript-todo/service-worker.js",
   "static/css/2.bf6e6662.chunk.css.map": "/react-typescript-todo/static/css/2.bf6e6662.chunk.css.map",
-  "static/css/main.2b4d3836.chunk.css.map": "/react-typescript-todo/static/css/main.2b4d3836.chunk.css.map"
+  "static/css/main.aa563a1b.chunk.css.map": "/react-typescript-todo/static/css/main.aa563a1b.chunk.css.map"
 }
