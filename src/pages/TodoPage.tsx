@@ -35,12 +35,19 @@ export default class TodoPage extends React.PureComponent<
     }, 1000);
   }
 
-  _deleteTodo = (id) =>{
-    deleteTodoAPI(id,(todos)=>{
-      this.setState({todos})
+  _sortTodos = () => {
+    const {todos} = this.state;
+    const arr = JSON.parse(JSON.stringify(todos)); // creat a copy
+    this.setState({
+      todos: arr.reverse()
     })
-  }
+  };
 
+  _deleteTodo = id => {
+    deleteTodoAPI(id, todos => {
+      this.setState({ todos });
+    });
+  };
 
   render() {
     const { todos, isLoading } = this.state;
@@ -48,7 +55,8 @@ export default class TodoPage extends React.PureComponent<
     const todoListProps = {
       todos,
       history,
-      deleteTodo: this._deleteTodo
+      deleteTodo: this._deleteTodo,
+      sortTodos: this._sortTodos
     } as TodoListProps;
     const footerProps = {
       todoAmount: todos.length,

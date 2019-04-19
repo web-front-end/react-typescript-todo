@@ -13,3 +13,4 @@ stats.json
 .storybook-out
 .vscode
 build
+.storybook-dist

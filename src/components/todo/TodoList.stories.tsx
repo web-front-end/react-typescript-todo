@@ -62,7 +62,8 @@ const prop = {
     }
   ],
   history : {},
-  deleteTodo: () =>{}
+  deleteTodo: () =>{},
+  sortTodos: () =>{}
   };
 storiesOf("TodoList", module).add("Simple", () => (
   <div style={{ margin: 40 }}>
