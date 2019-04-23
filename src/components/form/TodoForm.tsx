@@ -82,8 +82,8 @@ export default class TodoForm extends React.PureComponent<
             name="desc"
             className="some-class"
             hideLabel={false}
-            labelText="Desc can't be empty"
-            invalidText="Desc"
+            labelText="Todo Desc"
+            invalidText="Desc can't be empty"
             placeholder="Todo Description"
             id="desc"
             value={this.state.desc}
